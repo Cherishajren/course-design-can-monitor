@@ -16,11 +16,11 @@
     <Text layoutX="22.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message Name:" />
     <Text layoutX="22.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message Type:" />
     <Text layoutX="22.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message ID:" />
-    <TextField id="mesageMessageName" layoutX="130.0" layoutY="36.0" prefWidth="122.16796875" />
-    <TextField id="mesageMessageType" layoutX="130.0" layoutY="79.0" prefWidth="122.16796875" />
-    <TextField id="mesageMessageID" layoutX="130.0" layoutY="115.0" prefWidth="123.0" />
+    <TextField fx:id="mesageMessageName" layoutX="130.0" layoutY="36.0" prefWidth="122.16796875" />
+    <TextField fx:id="mesageMessageType" layoutX="130.0" layoutY="79.0" prefWidth="122.16796875" />
+    <TextField fx:id="mesageMessageID" layoutX="130.0" layoutY="115.0" prefWidth="123.0" />
     <Text layoutX="314.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Signal" />
-    <ChoiceBox id="messageSelectSignal" layoutX="325.0" layoutY="49.0">
+    <ChoiceBox fx:id="messageSelectSignal" layoutX="325.0" layoutY="49.0">
       <items>
         <FXCollections fx:factory="observableArrayList">
           <String fx:value="项 1" />
@@ -29,18 +29,18 @@
         </FXCollections>
       </items>
     </ChoiceBox>
-    <Button id="messageSelectButton" layoutX="458.0" layoutY="49.0" mnemonicParsing="false" text="Select" />
+    <Button fx:id="messageSelectButton" layoutX="458.0" layoutY="49.0" mnemonicParsing="false" text="Select" />
     <Text layoutX="325.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Signal Name:" />
     <Text layoutX="325.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Length:" />
     <Text layoutX="325.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Mode:" />
-    <TextField id="messageSignalName" layoutX="417.0" layoutY="79.0" prefWidth="100.0" />
-    <TextField id="messageDataLength" layoutX="417.0" layoutY="103.0" prefWidth="100.0" />
-    <TextField id="messageDataMode" layoutX="417.0" layoutY="126.0" prefWidth="100.0" />
+    <TextField fx:id="messageSignalName" layoutX="417.0" layoutY="79.0" prefWidth="100.0" />
+    <TextField fx:id="messageDataLength" layoutX="417.0" layoutY="103.0" prefWidth="100.0" />
+    <TextField fx:id="messageDataMode" layoutX="417.0" layoutY="126.0" prefWidth="100.0" />
     <Text layoutX="12.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bit Map" />
     <Text layoutX="20.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start Bit:" />
-    <TextField id="messageStartBit" layoutX="72.0" layoutY="416.0" prefWidth="84.90234375" />
+    <TextField fx:id="messageStartBit" layoutX="72.0" layoutY="416.0" prefWidth="84.90234375" />
     <Text layoutX="22.0" layoutY="464.0" strokeType="OUTSIDE" strokeWidth="0.0" text="End Bit:" />
-    <TextField id="messageEndtBit" layoutX="75.0" layoutY="448.0" prefWidth="84.90234375" />
+    <TextField fx:id="messageEndtBit" layoutX="75.0" layoutY="448.0" prefWidth="84.90234375" />
     <Button layoutX="5.0" layoutY="195.0" mnemonicParsing="false" text="00" />
     <Button layoutX="36.0" layoutY="195.0" mnemonicParsing="false" text="01" />
     <Button layoutX="68.0" layoutY="195.0" mnemonicParsing="false" text="02" />
